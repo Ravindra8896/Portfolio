@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio </title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <section class="wrapper">
+        <header class="header flex justify-center">
+            <!-- head left section -->
+            <div id="head-left" class="head-part">
+                <h1 id="title">PORTFOLIO</h1>
+
+
+            </div>
+
+            <!-- head right section -->
+            <div id="head-right" class="head-part ">
+                <div class="toggle-btn">
+                    <input type="checkbox" name="check" id="check" style="display: none;">
+                    <label for="check"><i class="fas fa-bars">DASHBOARD</i></label>
+                </div>
+                
+                
+            </div>
+            
+
+        </header>
+        <main>
+            <section id="menu">
+                    <div class="menu">
+                        <ul class="list-item flex justify-btw">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#Services">Services</a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+                    </div>
+            </section>
+
+            <section class="container">
+                <div  class="page flex" id="home">
+                    <div class="home-left justify-center">
+                        <h3>HI! I am</h3>
+                        <span id="identity"></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore rem sapiente dolor sint autem quam dignissimos tenetur provident ex ab.
+                        </p>
+                    </div>
+
+                    
+                    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+                    <!-- Setup and start animation! -->
+                    <script>
+                      var typed = new Typed('#identity', {
+                        strings: ['RAVINDRA...', 'FRONTEND DEVELOPER...', 'DESIGNER...', 'PHOTOGRAPHER...', 'DEVIL...'],
+                        typeSpeed: 50,
+                        loop: true,
+                      });
+                    </script>
+                    <hr>
+                    <div class="home-right flex align-center justify-center">
+                            <div class="roller flex align-center justify-center"></div>
+                            <div class="circle-container flex justify-center">
+                            <div class="roller "></div>
+                            <div class="image-container"></div>
+                            <div class="resume-down flex align-center justify-center">
+                                <button type="download" >Download Resume</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="page " id="Services">
+                    ref
+                </div>
+                <div  class="page" id="Skills">
+                    fdg
+                </div>
+                <div  class="page" id="About">
+                    dfg
+                </div>
+
+
+                <!-- contact page  -->
+                <div  class="page" id="Contact">
+                    <section id="contact-page" data-aos="fade-left">
+                        <form action="https://api.web3forms.com/submit" class="Contact-form" method="POST" data-aos="fade-up-right">
+                            <fieldset class="form-field ">
+                                <legend>
+                                    <i>CONTACT DETAILS</i>
+                                </legend>
+                                <input type="hidden" name="access_key" value="dc227011-3409-4270-89c3-88fca25a8695">
+                                
+                                <input type="text" name="Full name" placeholder="Enter your  Full name" class="contact-inp" required>
+                                <input type="email" name="Email" id="Email" placeholder="Enter your Email address " class="contact-inp" required>
+                                
+                                <textarea name="Message" id="Message" placeholder="Message" class="contact-inp"></textarea>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </fieldset>
+        
+                    </section>
+                </div>
+            </section>
+        </main>
+
+
+
+
+
+    </section>
+    
+</body>
+</html>
